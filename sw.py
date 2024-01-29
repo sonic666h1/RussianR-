@@ -80,8 +80,8 @@ def russian_roulette():
     for round_num in range(1, rounds + 1):
         print(f"\nRound {round_num}")
 
-        chambers = [0, 0, 0, 0, 0, 1]  
-        random.shuffle(chambers)  
+        chambers = [0] * 5 + [1]  
+        random.shuffle(chambers)
 
         print("Spinning the chamber...")
         show_animation(["...", "..", "."], delay=1)  
@@ -90,7 +90,7 @@ def russian_roulette():
 
         input("Press Enter to pull the trigger...")
 
-        outcome = random.randint(1, 6) == 1
+        outcome = chambers.pop()
 
         if outcome == 1:
             play_sound('Revshot.mp3')
