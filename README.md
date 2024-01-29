@@ -10,3 +10,5 @@ I would recommend you get python from Microsoft Store, To run it just pull up cm
 If you're monke brain like me : search cmd in win search then do "cd C:path\to\the\folder "
 It would look like this = " cd C:\Users\sonic\Downloads\GameFolder " For me.
 
+Note. The sounds need to be in the same folder where the sw.py file is at.
+
