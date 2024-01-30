@@ -11,8 +11,9 @@ If you're monke brain like me : search cmd in win search then do "cd C:path\to\t
 It would look like this = " cd C:\Users\sonic\Downloads\GameFolder " For me.
 
 Note. The sounds need to be in the same folder where the sw.py file is at.
+Note2. Use the latest python version.
 
-Simpler Tutorial:
+## Simpler Tutorial:
 
 # 1. Download the .zip file = 
 https://github.com/sonic666h1/RussianR-/assets/124123844/37cb9d64-c8a5-44c5-9a20-219d8be7ecd7
